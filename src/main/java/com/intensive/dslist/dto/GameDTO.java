@@ -20,7 +20,7 @@ public class GameDTO {
 	}
 	
 	public GameDTO(Game entity) {
-		BeanUtils.copyProperties(entity, this); //if all field names are the same, it copies everything		
+		BeanUtils.copyProperties(entity, this); //if all field names are the same, it copies everything, also needs getters and setters methods	
 	}
 
 	public Long getId() {
